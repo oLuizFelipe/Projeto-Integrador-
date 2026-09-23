@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #F4F4F4;
+    color: #222;
+}
+
+/* CABEÇALHO */
+
+.cabecario {
+    background-color: #000000;
+    color: #FFD700;
+    padding: 18px 40px;
+    text-align: center;
+    position: relative;
+}
+
+.cabecario h1 {
+    margin: 0 0 15px 0;
+    font-size: 32px;
+}
+
+.cabecario img {
+    width: 180px;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    color: #FFD700;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background-color: #FFD700;
+    color: #000000;
+}
+
+/* RODAPÉ */
+
+footer {
+    background-color: #000000;
+    color: #FFD700;
+    text-align: center;
+    padding: 25px 20px;
+    margin-top: 40px;
+}
+
+.texto-rodape h3 {
+    margin-top: 0;
+}
+
+.texto-rodape h2 {
+    margin-top: 0;
+}
+
+.texto-rodape p {
+    margin: 8px 0;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 700px) {
+
+    .cabecario {
+        padding: 20px;
+    }
+
+    .cabecario img {
+        position: static;
+        width: 150px;
+        margin-bottom: 10px;
+    }
+
+    .cabecario h1 {
+        font-size: 26px;
+    }
+
+}

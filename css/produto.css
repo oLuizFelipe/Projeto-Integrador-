@@ -1,0 +1,315 @@
+/* ÁREA DO PRODUTO */
+
+.produto-detalhes {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
+
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+
+/* IMAGEM */
+
+.produto-imagem {
+    width: 50%;
+    text-align: center;
+}
+
+.produto-imagem img {
+    width: 100%;
+    max-width: 450px;
+    height: 450px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+
+/* INFORMAÇÕES */
+
+.produto-informacoes {
+    width: 50%;
+}
+
+.categoria-produto {
+    color: #777777;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.produto-informacoes h2 {
+    font-size: 32px;
+    margin: 0 0 15px 0;
+}
+
+.preco-produto {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 15px 0 20px 0;
+}
+
+.descricao-produto {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+
+/* ÁREA DE COMPRA */
+
+.area-compra {
+    background-color: #F4F4F4;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.titulo-compra {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+}
+
+.texto-compra {
+    line-height: 1.5;
+    margin: 0 0 15px 0;
+}
+
+
+/* BOTÃO ADICIONAR AO CARRINHO */
+
+.botao-carrinho {
+    display: block;
+    width: 100%;
+
+    background-color: #FFD700;
+    color: #000000;
+
+    border: 1px solid #000000;
+
+    padding: 14px 25px;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    margin-bottom: 10px;
+
+    transition: 0.3s;
+}
+
+.botao-carrinho:hover {
+    background-color: #000000;
+    color: #FFD700;
+}
+
+
+/* BOTÃO WHATSAPP */
+
+.botao-comprar {
+    display: block;
+    width: 100%;
+
+    background-color: #000000;
+    color: #FFD700;
+
+    padding: 14px 25px;
+
+    border-radius: 6px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.botao-comprar:hover {
+    background-color: #FFD700;
+    color: #000000;
+}
+
+
+/* MENSAGEM DO CARRINHO */
+
+.mensagem-carrinho {
+    display: none;
+
+    text-align: center;
+
+    font-weight: bold;
+
+    margin-top: 12px;
+
+    padding: 10px;
+
+    border-radius: 6px;
+
+    background-color: #FFFFFF;
+}
+
+
+/* VOLTAR */
+
+.voltar {
+    display: block;
+
+    margin-top: 20px;
+
+    color: #000000;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+.voltar:hover {
+    color: #FFD700;
+}
+
+
+/* PRODUTOS RELACIONADOS */
+
+.relacionados {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 30px 20px;
+
+    text-align: center;
+}
+
+.relacionados h2 {
+    margin-top: 0;
+    font-size: 28px;
+}
+
+.relacionados > p {
+    margin-bottom: 30px;
+}
+
+.relacionados-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.produto-relacionado {
+    background-color: #FFFFFF;
+
+    width: 220px;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
+
+    transition: 0.3s;
+}
+
+.produto-relacionado:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.produto-relacionado img {
+    width: 100%;
+    height: 200px;
+
+    object-fit: contain;
+
+    border-radius: 6px;
+
+    margin-bottom: 10px;
+}
+
+.produto-relacionado h3 {
+    font-size: 17px;
+
+    min-height: 40px;
+
+    margin: 5px 0 10px 0;
+}
+
+.preco-relacionado {
+    font-size: 18px;
+
+    font-weight: bold;
+
+    margin: 10px 0;
+}
+
+.botao-relacionado {
+    display: inline-block;
+
+    background-color: #000000;
+    color: #FFD700;
+
+    padding: 9px 15px;
+
+    border-radius: 6px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.botao-relacionado:hover {
+    background-color: #FFD700;
+    color: #000000;
+}
+
+
+/* CELULAR */
+
+@media (max-width: 700px) {
+
+    .produto-detalhes {
+        margin: 25px 20px;
+        padding: 20px;
+
+        display: block;
+    }
+
+    .produto-imagem {
+        width: 100%;
+    }
+
+    .produto-imagem img {
+        height: 300px;
+    }
+
+    .produto-informacoes {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .produto-informacoes h2 {
+        font-size: 26px;
+    }
+
+    .preco-produto {
+        font-size: 24px;
+    }
+
+    .produto-relacionado {
+        width: 100%;
+        max-width: 320px;
+    }
+
+}

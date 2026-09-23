@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Carrinho - JMS Bolsas Grajaú</title>
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/carrinho.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+
+    <header class="cabecario">
+
+        <img src="imagens/jms_bolsas_logo_transparente.png"
+             alt="JMS Bolsas Grajaú">
+
+        <h1>JMS Bolsas Grajaú</h1>
+
+        <nav class="menu">
+
+            <a href="inicio.html">
+                Início
+            </a>
+
+            <a href="produtos.html">
+                Produtos
+            </a>
+
+            <a href="sobre.html">
+                Sobre
+            </a>
+
+            <a href="contato.html">
+                Contato
+            </a>
+
+            <a href="carrinho.html">
+                🛒
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- TÍTULO -->
+
+    <section class="banner-carrinho">
+
+        <h2>
+            Meu Carrinho
+        </h2>
+
+        <p>
+            Confira os produtos que você selecionou.
+        </p>
+
+    </section>
+
+
+    <!-- CARRINHO -->
+
+    <section class="carrinho">
+
+        <div class="carrinho-container">
+
+            <!-- PRODUTOS DO CARRINHO -->
+
+            <div class="lista-carrinho"
+                 id="listaCarrinho">
+
+                <!--
+                    Os produtos serão adicionados
+                    aqui pelo JavaScript.
+                -->
+
+            </div>
+
+
+            <!-- CARRINHO VAZIO -->
+
+            <div class="carrinho-vazio"
+                 id="carrinhoVazio">
+
+                <h3>
+                    Seu carrinho está vazio.
+                </h3>
+
+                <p>
+                    Você ainda não adicionou nenhum produto.
+                </p>
+
+                <a href="produtos.html"
+                   class="botao-continuar">
+
+                    Ver produtos
+
+                </a>
+
+            </div>
+
+
+            <!-- RESUMO DA COMPRA -->
+
+            <div class="resumo-carrinho"
+                 id="resumoCarrinho">
+
+                <h3>
+                    Resumo da compra
+                </h3>
+
+                <div class="linha-resumo">
+
+                    <span>
+                        Produtos:
+                    </span>
+
+                    <span id="quantidadeProdutos">
+                        0
+                    </span>
+
+                </div>
+
+                <div class="linha-resumo total">
+
+                    <span>
+                        Total:
+                    </span>
+
+                    <span id="totalCarrinho">
+                        R$ 0,00
+                    </span>
+
+                </div>
+
+                <button id="botaoWhatsApp"
+                        class="botao-finalizar">
+
+                    Finalizar pelo WhatsApp
+
+                </button>
+
+                <a href="produtos.html"
+                   class="continuar-comprando">
+
+                    ← Continuar comprando
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- RODAPÉ -->
+
+    <footer>
+
+        <div class="texto-rodape">
+
+            <h2>
+                JMS Bolsas Grajaú
+            </h2>
+
+            <p>
+                Qualidade e estilo para todos os momentos.
+            </p>
+
+            <p>
+                © 2026 JMS Bolsas Grajaú
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="js/carrinho.js"></script>
+
+</body>
+
+</html>

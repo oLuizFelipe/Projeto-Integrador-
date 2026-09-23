@@ -1,0 +1,148 @@
+/* BANNER */
+
+.banner-contato {
+    background-color: #FFD700;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.banner-contato h2 {
+    font-size: 38px;
+    margin: 0 0 10px 0;
+}
+
+.banner-contato p {
+    font-size: 18px;
+    margin: 0;
+}
+
+
+/* CONTATO */
+
+.contato {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.informacao {
+    background-color: #FFFFFF;
+    width: 240px;
+    padding: 25px 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
+}
+
+.informacao h3 {
+    margin-top: 0;
+}
+
+.informacao p {
+    line-height: 1.5;
+}
+
+.informacao a {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.informacao a:hover {
+    color: #FFD700;
+}
+
+
+/* ATENDIMENTO */
+
+.atendimento {
+    max-width: 900px;
+    margin: 20px auto 40px auto;
+    padding: 35px 20px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
+}
+
+.atendimento-conteudo h2 {
+    margin-top: 0;
+}
+
+.atendimento-conteudo p {
+    line-height: 1.6;
+}
+
+.atendimento .botao {
+    margin-top: 10px;
+}
+
+
+/* LOCALIZAÇÃO */
+
+.localizacao {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 35px 20px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
+}
+
+.localizacao h2 {
+    margin-top: 0;
+}
+
+.localizacao p {
+    line-height: 1.6;
+}
+
+.mapa a {
+    display: inline-block;
+    background-color: #000000;
+    color: #FFD700;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.mapa a:hover {
+    background-color: #FFD700;
+    color: #000000;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 700px) {
+
+    .banner-contato h2 {
+        font-size: 30px;
+    }
+
+    .contato {
+        margin: 20px auto;
+    }
+
+    .informacao {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .atendimento,
+    .localizacao {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}
